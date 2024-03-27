@@ -23,15 +23,15 @@ client.on('ready', async () => {
   console.log(`${client.user.tag} - rich presence started!`);
 
   const r = new Discord.RichPresence()
-    .setApplicationId('1205700396430139393')
+    .setApplicationId('1118827992983031898')
     .setType('PLAYING')
     .setURL('https://youtu.be/xvFZjo5PgG0?si=c8akPNtCj_52JNs8') //Must be a youtube video link 
-    .setState('Playing Single Player')
-    .setName('Grand Theft Auto VI')
-    .setDetails(`Welcome To Vice City!`)
+    .setState('Watching Solo Leveling')
+    .setName('Solo Leveling')
+    .setDetails(`Bstation`)
     .setStartTimestamp(Date.now())
- .setAssetsLargeImage('') //You can put links in tenor or discord and etc.
-    .setAssetsLargeText('Grand Theft Auto VI') //Text when you hover the Large image
+ .setAssetsLargeImage('https://cdn.discordapp.com/attachments/1205721991685083166/1222338515199721473/nug7F0n-jWMpAWLaU7Qi1kuTIYjrAtUJmZd5FW4mEyspYR7-zGa-3_fwnYkPgyzHozE3.png?ex=6615da73&is=66036573&hm=4d8f2fcee2c84952bc8f6619b0799e5e8c953563fb7c3242dfa761597bb9c2b7&') //You can put links in tenor or discord and etc.
+    .setAssetsLargeText('Solo Leveling') //Text when you hover the Large image
     .addButton('WhatsApp', 'https://chat.whatsapp.com/K6UduLp6GHqEY9x6m8lRiS')
     .addButton('YouTube', 'https://youtu.be/UieWIZvxLS4?si=v7LWULC7AgvYleYB');
 
@@ -42,7 +42,7 @@ client.on('ready', async () => {
   setInterval(() => {
     const newTime = formatTime();
     if (newTime !== prevTime) {
-      const newDetails = `Welcome To Vice City!`;
+      const newDetails = `Bstation`;
       r.setDetails(newDetails);
       client.user.setActivity(r);
       prevTime = newTime;
