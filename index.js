@@ -30,7 +30,7 @@ client.on('ready', async () => {
     .setName('Grand Theft Auto VI')
     .setDetails(`Welcome To Vice City!`)
     .setStartTimestamp(Date.now())
- .setAssetsLargeImage('https://cdn.discordapp.com/attachments/1205721991685083166/1221271245459423363/images.png?ex=6611f87b&is=65ff837b&hm=6374d372d6d43211d51c06604e75ba60a416730c525f6599621865428a22164d&') //You can put links in tenor or discord and etc.
+ .setAssetsLargeImage('') //You can put links in tenor or discord and etc.
     .setAssetsLargeText('Grand Theft Auto VI') //Text when you hover the Large image
     .addButton('WhatsApp', 'https://chat.whatsapp.com/K6UduLp6GHqEY9x6m8lRiS')
     .addButton('YouTube', 'https://youtu.be/UieWIZvxLS4?si=v7LWULC7AgvYleYB');
