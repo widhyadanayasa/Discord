@@ -26,14 +26,14 @@ client.on('ready', async () => {
     .setApplicationId('1118827992983031898')
     .setType('PLAYING')
     .setURL('https://youtu.be/xvFZjo5PgG0?si=c8akPNtCj_52JNs8') //Must be a youtube video link 
-    .setState('Solo Leveling')
-    .setName('Watching Solo Leveling')
-    .setDetails(`Bstation`)
+    .setState('Tokidoki Bosotto Russia-go de Dereru Tonari no Alya-san')
+    .setName('Summer 2024')
+    .setDetails(`Comedy, Romance`)
     .setStartTimestamp(Date.now())
- .setAssetsLargeImage('https://cdn.discordapp.com/attachments/1205721991685083166/1222338515199721473/nug7F0n-jWMpAWLaU7Qi1kuTIYjrAtUJmZd5FW4mEyspYR7-zGa-3_fwnYkPgyzHozE3.png?ex=6615da73&is=66036573&hm=4d8f2fcee2c84952bc8f6619b0799e5e8c953563fb7c3242dfa761597bb9c2b7&') //You can put links in tenor or discord and etc.
+ .setAssetsLargeImage('https://media.discordapp.net/attachments/1205721991685083166/1226559996943401171/Tokidoki_Bosotto_Russia-go_de_Dereru_Tonari_no_Alya-san.jpg?ex=66253603&is=6612c103&hm=024f406062f5a6ca9c08650e6175c2d72f60375fa168f31164da041638fdf0d2&=&format=webp') //You can put links in tenor or discord and etc.
     .setAssetsLargeText('Solo Leveling') //Text when you hover the Large image
-    .addButton('WhatsApp', 'https://chat.whatsapp.com/K6UduLp6GHqEY9x6m8lRiS')
-    .addButton('YouTube', 'https://youtu.be/UieWIZvxLS4?si=v7LWULC7AgvYleYB');
+    .addButton('MyAnimeList', 'https://myanimelist.net/anime/54744/Tokidoki_Bosotto_Russia-go_de_Dereru_Tonari_no_Alya-san')
+    .addButton('LightNovel', 'https://zerokaito.blogspot.com/2021/03/tokidoki-bosotto-roshia-go-de-dereru.html');
 
   client.user.setActivity(r);
   client.user.setPresence({ status: "dnd" }); //dnd, online, idle, offline
@@ -42,7 +42,7 @@ client.on('ready', async () => {
   setInterval(() => {
     const newTime = formatTime();
     if (newTime !== prevTime) {
-      const newDetails = `Bstation`;
+      const newDetails = `Comedy, Romance`;
       r.setDetails(newDetails);
       client.user.setActivity(r);
       prevTime = newTime;
