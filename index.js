@@ -26,9 +26,9 @@ client.on('ready', async () => {
     .setApplicationId('1118827992983031898')
     .setType('PLAYING')
     .setURL('https://youtu.be/xvFZjo5PgG0?si=c8akPNtCj_52JNs8') //Must be a youtube video link 
-    .setState('Tokidoki Bosotto Russia-go de Dereru Tonari no Alya-san')
-    .setName('Summer 2024')
-    .setDetails(`Comedy, Romance`)
+    .setState('Comedy, Romance')
+    .setName('Tokidoki Bosotto Russia-go de Dereru Tonari no Alya-san')
+    .setDetails(`Summer 2024`)
     .setStartTimestamp(Date.now())
  .setAssetsLargeImage('https://media.discordapp.net/attachments/1205721991685083166/1226559996943401171/Tokidoki_Bosotto_Russia-go_de_Dereru_Tonari_no_Alya-san.jpg?ex=66253603&is=6612c103&hm=024f406062f5a6ca9c08650e6175c2d72f60375fa168f31164da041638fdf0d2&=&format=webp') //You can put links in tenor or discord and etc.
     .setAssetsLargeText('Solo Leveling') //Text when you hover the Large image
@@ -42,7 +42,7 @@ client.on('ready', async () => {
   setInterval(() => {
     const newTime = formatTime();
     if (newTime !== prevTime) {
-      const newDetails = `Comedy, Romance`;
+      const newDetails = `Summer 2024`;
       r.setDetails(newDetails);
       client.user.setActivity(r);
       prevTime = newTime;
