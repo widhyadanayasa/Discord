@@ -26,8 +26,8 @@ client.on('ready', async () => {
     .setApplicationId('1118827992983031898')
     .setType('PLAYING')
     .setURL('https://youtu.be/xvFZjo5PgG0?si=c8akPNtCj_52JNs8') //Must be a youtube video link 
-    .setState('Watching Solo Leveling')
-    .setName('Solo Leveling')
+    .setState('Solo Leveling')
+    .setName('Watching Solo Leveling')
     .setDetails(`Bstation`)
     .setStartTimestamp(Date.now())
  .setAssetsLargeImage('https://cdn.discordapp.com/attachments/1205721991685083166/1222338515199721473/nug7F0n-jWMpAWLaU7Qi1kuTIYjrAtUJmZd5FW4mEyspYR7-zGa-3_fwnYkPgyzHozE3.png?ex=6615da73&is=66036573&hm=4d8f2fcee2c84952bc8f6619b0799e5e8c953563fb7c3242dfa761597bb9c2b7&') //You can put links in tenor or discord and etc.
