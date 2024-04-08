@@ -31,7 +31,7 @@ client.on('ready', async () => {
     .setDetails(`Summer 2024`)
     .setStartTimestamp(Date.now())
  .setAssetsLargeImage('https://media.discordapp.net/attachments/1205721991685083166/1226559996943401171/Tokidoki_Bosotto_Russia-go_de_Dereru_Tonari_no_Alya-san.jpg?ex=66253603&is=6612c103&hm=024f406062f5a6ca9c08650e6175c2d72f60375fa168f31164da041638fdf0d2&=&format=webp') //You can put links in tenor or discord and etc.
-    .setAssetsLargeText('Solo Leveling') //Text when you hover the Large image
+    .setAssetsLargeText('Tokidoki Bosotto Russia-go de Dereru Tonari no Alya-san') //Text when you hover the Large image
     .addButton('MyAnimeList', 'https://myanimelist.net/anime/54744/Tokidoki_Bosotto_Russia-go_de_Dereru_Tonari_no_Alya-san')
     .addButton('LightNovel', 'https://zerokaito.blogspot.com/2021/03/tokidoki-bosotto-roshia-go-de-dereru.html');
 
